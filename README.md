@@ -4,6 +4,10 @@ A high-fidelity, real-time smart parking prototype designed for multi-tenant fac
 
 Both applications feature premium dark/light mode themes, glassmorphism UI elements, micro-animations, dynamic canvas visualizers, and a simulated live IoT sensor telemetry network.
 
+## 🌐 Live Demos
+*   **📱 User Portal:** [https://parkez-user.vercel.app/](https://parkez-user.vercel.app/)
+*   **🛡️ Management Portal:** [https://parkez-management.vercel.app/](https://parkez-management.vercel.app/)
+
 ---
 
 ## 🌟 Key Features
@@ -96,40 +100,3 @@ To sign in to the **Management Portal** (`Parkez management`), use any of the fo
 To sign in to the **User Portal** (`Parkez user`), use the default administrator credentials or click **Sign Up** to create a new sandbox account in `localStorage`:
 *   **Username:** `ABC`
 *   **Password:** `123`
-
----
-
-## 📤 Pushing to GitHub
-
-Follow these steps to initialize Git and upload this project to your GitHub account:
-
-1. **Open your command line / terminal** (make sure Git is installed on your computer).
-2. **Navigate to the root directory** of the project:
-   ```bash
-   cd /path/to/Parkez
-   ```
-3. **Initialize the Git repository**:
-   ```bash
-   git init
-   ```
-4. **Add all files** to the staging area:
-   ```bash
-   git add .
-   ```
-5. **Commit the files** with an initial message:
-   ```bash
-   git commit -m "initial commit: Parkez smart parking prototype"
-   ```
-6. **Create a new repository** on [GitHub](https://github.com/new). Do not initialize it with a README, `.gitignore`, or license.
-7. **Link your local repository** to your remote GitHub repository:
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-   ```
-8. **Rename the default branch** to `main`:
-   ```bash
-   git branch -M main
-   ```
-9. **Push the code** to GitHub:
-   ```bash
-   git push -u origin main
-   ```
