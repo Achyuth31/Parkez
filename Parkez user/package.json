@@ -1,0 +1,13 @@
+{
+  "name": "parkez-prototype",
+  "version": "1.0.0",
+  "description": "Parkez Smart Parking Platform High-Fidelity Prototype",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx http-server -p 3000"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
